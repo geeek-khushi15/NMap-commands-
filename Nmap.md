@@ -1,7 +1,4 @@
-# Creating a .md file for Nmap command cheat sheet
 
-nmap_commands = """
-# Nmap Command Cheat Sheet
 
 | **Command** | **Description** |
 |-------------|-----------------|
@@ -39,11 +36,6 @@ nmap_commands = """
 | `nmap -S <spoofed-IP> <target>` | Spoof source IP. |
 | `nmap -f <target>` | Fragment packets to bypass firewalls/IDS. |
 | `nmap --reason <target>` | Show reasons for each port state. |
-"""
 
-# Save as a markdown file
-file_path = '/mnt/data/Nmap_Command_Cheat_Sheet.md'
-with open(file_path, 'w') as file:
-    file.write(nmap_commands)
 
-file_path
+
